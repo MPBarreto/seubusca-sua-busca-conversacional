@@ -107,17 +107,17 @@ export function WhatsAppMockup() {
     <div className="phone-mockup w-[320px] md:w-[360px] float-animation">
       <div className="whatsapp-screen">
         {/* WhatsApp Header */}
-        <div className="bg-secondary px-4 py-3 flex items-center gap-3">
+        <div className="bg-whatsapp px-4 py-3 flex items-center gap-3">
           <img 
             src={logo} 
             alt="SeuBusca" 
             className="w-10 h-10 rounded-full bg-card object-cover"
           />
           <div className="flex-1">
-            <p className="text-secondary-foreground font-bold text-sm">SeuBusca</p>
-            <p className="text-secondary-foreground/80 text-xs">online</p>
+            <p className="text-white font-bold text-sm">SeuBusca</p>
+            <p className="text-white/80 text-xs">online</p>
           </div>
-          <div className="flex gap-4 text-secondary-foreground/80">
+          <div className="flex gap-4 text-white/80">
             <Video className="w-5 h-5" />
             <Phone className="w-5 h-5" />
             <MoreVertical className="w-5 h-5" />
@@ -150,8 +150,8 @@ export function WhatsAppMockup() {
                   />
                   <div>
                     <p className="text-sm font-semibold text-foreground">{msg.productName}</p>
-                    <p className="text-lg font-bold text-secondary">{msg.productPrice}</p>
-                    <p className="text-xs text-accent underline cursor-pointer">Ver oferta →</p>
+                    <p className="text-lg font-bold text-whatsapp">{msg.productPrice}</p>
+                    <p className="text-xs text-whatsapp-dark underline cursor-pointer">Ver oferta →</p>
                   </div>
                 </div>
               ) : (
@@ -174,8 +174,8 @@ export function WhatsAppMockup() {
           <div className="flex-1 bg-muted rounded-full px-4 py-2 flex items-center">
             <span className="text-muted-foreground text-sm">Mensagem</span>
           </div>
-          <button className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
-            <Send className="w-5 h-5 text-secondary-foreground" />
+          <button className="w-10 h-10 bg-whatsapp rounded-full flex items-center justify-center">
+            <Send className="w-5 h-5 text-white" />
           </button>
         </div>
       </div>
