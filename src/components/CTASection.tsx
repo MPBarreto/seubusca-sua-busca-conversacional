@@ -22,7 +22,7 @@ export function CTASection() {
           <img 
             src={logo} 
             alt="SeuBusca" 
-            className="w-24 h-24 mx-auto mb-8 float-animation"
+            className="w-40 h-40 mx-auto mb-8 float-animation"
           />
           
           <h2 className="text-3xl md:text-5xl font-black text-background mb-6">
