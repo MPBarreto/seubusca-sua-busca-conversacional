@@ -32,9 +32,9 @@ export function HeroSection() {
         </header>
 
         {/* Main Hero Content */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16 max-w-6xl mx-auto">
           {/* Left side - Text */}
-          <div className="flex-1 text-center lg:text-left max-w-xl">
+          <div className="flex-1 text-center lg:text-left max-w-lg">
             <div className="inline-block bg-primary/30 text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold mb-6 slide-up">
               🔍 Busca de produtos no WhatsApp
             </div>
@@ -79,7 +79,7 @@ export function HeroSection() {
           </div>
 
           {/* Right side - Phone Mockup */}
-          <div className="flex-1 flex justify-center lg:justify-end">
+          <div className="flex-1 flex justify-center">
             <WhatsAppMockup />
           </div>
         </div>
